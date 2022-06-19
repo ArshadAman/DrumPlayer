@@ -86,7 +86,7 @@ function Play(id) {
   let audio = "";
   switch (id) {
     case "A":
-      audio = new Audio("/Sounds/clap.mp3");
+      audio = new Audio("/DrumPlayer/Sounds/clap.mp3");
       audio.play();
       setTimeout(function () {
         audio.pause();
@@ -94,7 +94,7 @@ function Play(id) {
       break;
 
     case "S":
-      audio = new Audio("/Sounds/hihat.mp3");
+      audio = new Audio("/DrumPlayer/Sounds/hihat.mp3");
       audio.play();
       setTimeout(function () {
         audio.pause();
@@ -102,7 +102,7 @@ function Play(id) {
       break;
 
     case "D":
-      audio = new Audio("/Sounds/kick.mp3");
+      audio = new Audio("/DrumPlayer/Sounds/kick.mp3");
       audio.play();
       setTimeout(function () {
         audio.pause();
@@ -110,7 +110,7 @@ function Play(id) {
       break;
 
     case "F":
-      audio = new Audio("/Sounds/openhat.mp3");
+      audio = new Audio("/DrumPlayer/Sounds/openhat.mp3");
       audio.play();
       setTimeout(function () {
         audio.pause();
@@ -118,7 +118,7 @@ function Play(id) {
       break;
 
     case "G":
-      audio = new Audio("/Sounds/boom.mp3");
+      audio = new Audio("/DrumPlayer/Sounds/boom.mp3");
       audio.play();
       setTimeout(function () {
         audio.pause();
@@ -126,7 +126,7 @@ function Play(id) {
       break;
 
     case "H":
-      audio = new Audio("/Sounds/ride.mp3");
+      audio = new Audio("/DrumPlayer/Sounds/ride.mp3");
       audio.play();
       setTimeout(function () {
         audio.pause();
@@ -134,7 +134,7 @@ function Play(id) {
       break;
 
     case "J":
-      audio = new Audio("/Sounds/snare.mp3");
+      audio = new Audio("/DrumPlayer/Sounds/snare.mp3");
       audio.play();
       setTimeout(function () {
         audio.pause();
@@ -142,7 +142,7 @@ function Play(id) {
       break;
 
     case "K":
-      audio = new Audio("/Sounds/tom.mp3");
+      audio = new Audio("/DrumPlayer/Sounds/tom.mp3");
       audio.play();
       setTimeout(function () {
         audio.pause();
@@ -150,7 +150,7 @@ function Play(id) {
       break;
 
     case "L":
-      audio = new Audio("/Sounds/tink.mp3");
+      audio = new Audio("/DrumPlayer/Sounds/tink.mp3");
       audio.play();
       setTimeout(function () {
         audio.pause();
